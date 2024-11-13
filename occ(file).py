@@ -1,0 +1,6 @@
+fname = input("Enter file name: ")
+file = open(fname, "r")
+s = file.read()
+word = input("Enter the word to look for: ")
+count = s.lower().split().count(word.lower())
+print("the word %s occurs %d times in the file" %(word,count))

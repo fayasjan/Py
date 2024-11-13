@@ -1,0 +1,8 @@
+a = input("Enter the first elements of the set A (separate using spaces): ").split()
+b = input("Enter the first elements of the set B (separate using spaces): ").split()
+setA = set(a)
+setB = set(b)
+print("The Union")
+print(setA.union(setB))
+print("The Intersection")
+print(setA.intersection(setB))
